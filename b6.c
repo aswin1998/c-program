@@ -9,11 +9,11 @@ void main()
     if(a%4==0 && a%100!=0||a%400==0)
     {
   
-    printf("leap year");
+    printf("yes");
     }
     else
     {
-        printf("not a leap year");
+        printf("no");
     }
     getch();
 }

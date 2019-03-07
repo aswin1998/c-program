@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main() 
 {
-    int n,i,a[10000];
+    int m,i,a[10000];
     
-scanf("%d",&n);
+scanf("%d",&m);
 
-for(i=0;i<n;i++)
+for(i=0;i<m;i++)
 {
     scanf("%d",&a[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<m;i++)
 {
     printf("%d %d \n",a[i],i);
 }

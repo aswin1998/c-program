@@ -2,19 +2,19 @@
 
 int main(){
     int a[10];
-    int i,min;
+    int i,b;
     for(i=0;i<10;i++)
     {
     scanf("%d",&a[i]);
     }
-    min=a[0];
+    b=a[0];
     for(i=0;i<10;i++)
     {
-    if(min>a[i])
+    if(b>a[i])
     {
-        min=a[i];
+        b=a[i];
     }
     }
-    printf("%d",min);
+    printf("%d",b);
     return 0;
 }

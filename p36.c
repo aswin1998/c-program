@@ -3,13 +3,13 @@
 
 int main()
 {
-int a,K;
-	scanf("%d %d",&a,&K);
+int a,m;
+	scanf("%d %d",&a,&m);
 	int i,X,l=0;
 	while(a>0)
 	{
 		X=a%10;
-		if(X==K)
+		if(X==m)
 		{
 			l+=1;
 		}

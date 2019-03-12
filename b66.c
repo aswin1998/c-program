@@ -2,11 +2,11 @@
 
 int main()
 {
-    int a,i,f=0;
+    int a,b,f=0;
     scanf("%d",&a);
-    for(i=1;i<a/2;i++)
+    for(b=1;b<a/2;b++)
     {
-        if(a%i==0)
+        if(a%b==0)
         {
             f=1;
             break;

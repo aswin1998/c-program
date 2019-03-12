@@ -3,7 +3,7 @@ int main()
 {
   
   char a[1000];
-  int i,f1=0,f2=0;
+  int i,f=0,f2=0;
   scanf("%[^\n]",a);
   for(i=0;a[i]!='\0';i++)
   {
@@ -16,7 +16,7 @@ int main()
           f2=1;
       }
   }
-	if(f1==1 && f2==1)
+	if(f==1 && f2==1)
 	printf("Yes");
 	else
 	printf("No");

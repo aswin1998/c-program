@@ -3,25 +3,25 @@
 
 int main()
 {
-char S1[1000];
+char S[1000];
     int i,j,c=0;
-    scanf("%[^\n]s",S1);
+    scanf("%[^\n]s",S);
     for(i=0;S1[i]!=NULL;i++)
     {
         c=0;
-    for(j=i+1;S1[j]!=NULL;j++)
+    for(j=i+1;S[j]!=NULL;j++)
     {
-        if(S1[i]==S1[j] )  
+        if(S[i]==S[j] )  
         {
          c++;
-         S1[j]='*';
+         S[j]='*';
         }
     }
     if(c==0)
     {
-        if(S1[i]!=' ' && S1[i]!='*')
+        if(S[i]!=' ' && S[i]!='*')
         {
-        printf("%c ",S1[i]);
+        printf("%c ",S[i]);
         }
     }
     }

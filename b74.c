@@ -3,9 +3,9 @@
 int main() {
 	
 	float a;
-	int dec;
+	int c;
 	scanf("%f",&a);
-	dec=a+1;
-	printf("%d",dec);
+	c=a+1;
+	printf("%d",c);
 	return 0;
 }

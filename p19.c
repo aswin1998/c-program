@@ -2,14 +2,14 @@
 
 int main()
 {
-    int n,i,j,Tot=0;
-scanf("%d",&n);
+    int numm,i,j,Tot=0;
+scanf("%d",&numm);
 
-if(n>=2&&n<=100000)
+if(numm>=2&&numm<=100000)
 {
-for(i=2;i<=n;i++)
+for(i=2;i<=numm;i++)
 {
-  if(n%i==0)
+  if(numm%i==0)
     {
         
         

@@ -2,40 +2,40 @@
 #include<string.h>
  int main()
 { 
-  int N,i,j,m,l=0;
-scanf("%d",&N);
+  int Num,i,j,ma,len=0;
+scanf("%d",&Num);
 
-int s[N];
-for(i=0;i<N;i++)
+int sa[Num];
+for(i=0;i<Num;i++)
 {
-    scanf("%d",&s[i]);
+    scanf("%d",&sa[i]);
 }
 
   for(i=0;i<N;i++)
  {
-    l=1;
-    for(j=i+1;j<N;j++)
+    len=1;
+    for(j=i+1;j<Num;j++)
     {
-        if(s[i]!='$'&&s[j]!='$')
+        if(sa[i]!='$'&&sa[j]!='$')
         {
-        if(s[i]==s[j])
+        if(sa[i]==sa[j])
         {
-            l++; 
-            s[j]='$';
+            len++; 
+            sa[j]='$';
             
          }
       }
     }
     
-    if(s[i]!='$')
+    if(sa[i]!='$')
     {
     
-    if(l==1)
+    if(len==1)
     {
  
-  m=s[i];
+  ma=sa[i];
   }
   }}
-  printf("%d",m);
+  printf("%d",ma);
 return 0;
 }
